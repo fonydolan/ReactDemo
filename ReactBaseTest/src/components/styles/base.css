@@ -1,0 +1,46 @@
+
+.icon {font-family: 'icomoon';font-style: normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.menuicon { display: inline-block; *zoom: 1; *display: inline; width: 18px; height: 18px; vertical-align: top; text-align: center; font-size: 16px; transition: all 0.4s ease; -moz-transition: all 0.4s ease; -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; }
+.menuspan { margin-left: 10px; vertical-align: middle; }
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form, span {
+    margin: 0;padding: 0;
+}
+
+.float_right{
+    margin-right: 1em;
+    float: right;
+}
+
+.ml1em{
+    margin-left: 1em;
+}
+
+.mt1em{
+    margin-top: 1em;
+}
+
+.w10em{
+    width: 10em;
+}
+
+.w1em{
+    width: 1em;
+}
+
+.color_red{
+    color: red;
+}
+
+.subtable_row{
+    background-color: '#0095ff73'
+}
+
+.subtable_row ::after{
+    background-color: '#0095ff73'
+}
+
+.loc_center{
+    margin-left: 50%;
+    margin-top: 10%;
+}

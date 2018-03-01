@@ -1,0 +1,62 @@
+<style>
+    .node_title {
+        color: #fff;
+        background-color: #1986ec;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 25px;
+        text-align: center;
+        z-index: 9;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+    }
+
+    .node_title::before {
+        content: '';
+        width: 0;
+        heigth: 0;
+        border: 5px solid #304859;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        position: absolute;
+        bottom: -11px;
+        left: 0;
+    }
+
+    .node_title::after {
+        content: '';
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        border-radius: 50%;
+        top: 0;
+        right: -13px;
+        background: #1986ec;
+    }
+
+    .node_content {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        padding-top: 34px;
+        width: 180px;
+        padding-bottom: 12px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+        color: #333;
+        background-color: #f1f2f3;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+</style>
+<div style="width:23em;">
+    <div class="node_title">
+        01 前期咨询
+    </div>
+    <div class="node_content font-14">
+        沟通咨询了解眼角膜移植相关内容
+    </div>
+</div>

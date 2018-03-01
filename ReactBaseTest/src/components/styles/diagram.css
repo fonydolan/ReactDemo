@@ -1,0 +1,104 @@
+
+.node_title {
+    color: #fff;
+    background-color: #1986ec;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 25px;
+    text-align: center;
+    z-index: 9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.node_title::before {
+    content: '';
+    width: 0;
+    heigth: 0;
+    border: 5px solid #304859;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+}
+
+.node_title::after {
+    content: '';
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    right: -13px;
+    background: #1986ec;
+}
+
+.node_content {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding-top: 34px;
+    width: 180px;
+    padding-bottom: 12px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    color: #333;
+    background-color: #f1f2f3;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+ /* CSS for the traditional context menu */
+ .contextMenu {
+    z-index: 10001;
+    position: absolute;
+    left: 5px;
+    border: 1px solid #444;
+    background-color: #F5F5F5;
+    display: none;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, .4 );
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .contextMenu ul {
+    list-style: none;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .contextMenu li button {
+    position: relative;
+    min-width: 60px;
+    color: #444;
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .contextMenu li:hover {
+    background: #CEDFF2;
+    color: #EEE;
+  }
+  .contextMenu li ul li {
+    display: none;
+    margin-left: 2px;
+  }
+  .contextMenu li ul li button {
+    position: relative;
+    min-width: 60px;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .contextMenu li:hover ul li {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+  }

@@ -1,0 +1,6 @@
+
+export const HOT_SEARCH_WORDS = "HOT_SEARCH_WORDS";
+
+
+
+export const TOPAGE_INDEX_SEARCH = "TOPAGE_INDEX_SEARCH";
